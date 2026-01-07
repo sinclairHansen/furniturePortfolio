@@ -1,0 +1,68 @@
+body{
+    background-color: rgba(236, 236, 236, 0.794);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+.button
+{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: rgb(43, 90, 55);
+    padding: 1px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+
+.logo
+{
+    height: 40%;
+    width: 100%;
+}
+@media screen and (min-width: 1001px){
+    .headerImg
+{
+    background-image: url('portfolioBanner.png');
+    padding-left: 20%;
+    height: 100%;
+    width: 100%;
+}
+    .backgroundImg
+{
+  background-image: url('');
+  background-size: cover;
+  width: 100%;
+  height:100%;
+  opacity: 1;
+} 
+
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    .headerImg{
+    background-image: url('portfolioBanner.png');
+    padding-top: 5%;
+    width: 100%;
+    height:100%;
+    background-size: cover;
+    background-repeat: none;
+
+    }  
+    .backgroundImg{
+    background-image: none;
+}
+
+        
+    }
+
+.title{
+    font-family: cursive, sans-serif;
+}
+}
